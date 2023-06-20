@@ -287,23 +287,13 @@ button {
 }
 
 
-.activity-list
 
-.activity-item
-
-.activity-img
 
 /**
   |============================
   | Team styles
   |============================
 */
-
-
-
-.section-team {
-  background-color: #F4F4FD;
-}
 
 .team-worker {
   
@@ -323,6 +313,10 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+
+.section-team {
+  background-color: var(--cloud);
 }
 
 /**
