@@ -1,5 +1,5 @@
 :root {
-  /* Font */
+/* Font */
 --primary-font: Roboto, sans-serif;
 --secondary-font: Raleway, sans-serif;
 
@@ -15,6 +15,7 @@
 }
 
 
+
 /* Common styles */
 body {
     font-family: var(--primary-font);
@@ -23,10 +24,21 @@ body {
     list-style-type: none;
 
 }
+
+
 /* Reset */
+h1,h2,h3,h4,h5,h6,p { 
+  margin: 0;
+}
+
+
+
 ul,
 ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+
 }
 
 .link { text-decoration: none;}
@@ -239,7 +251,7 @@ button {
   |============================
 */
 .section-features {
-  background-color: var(--logo-color-dark);
+  background-color: var(--cloud);
 }
 
 .features-title {
