@@ -1,0 +1,355 @@
+:root {
+  /* Font */
+--primary-font: Roboto, sans-serif;
+--secondary-font: Raleway, sans-serif;
+
+/* Colors */
+--logo-color: #4d5ae5;
+--logo-color-dark: #2e2f42;
+--white: #FFFFFF;
+--cloud: #f4f4fd;
+--ocean: #13719c;
+--violet:#404BBF;
+--slate: #434455;
+
+}
+
+
+/* Common styles */
+body {
+    font-family: var(--primary-font);
+    background-color: var(--white);
+    color: var(--slate);
+    list-style-type: none;
+
+}
+/* Reset */
+ul,
+ol {
+    list-style: none;
+}
+
+.link { text-decoration: none;}
+
+.list { list-style: none; }
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+
+.header 
+
+.header-nav {
+  list-style: none;
+}
+
+.logo {
+        font-family: "Raleway", sans-serif;
+        
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        
+        
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--logo-color);
+          }
+
+
+.studio-up {
+        color: var(--logo-color-dark);
+}
+
+.header-item {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    
+   
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--logo-color-dark);
+  }
+
+.header-link:hover,
+.header-link:focus { color: #404BBF;}
+
+.address {
+  font-style: normal;
+}
+
+.address-list
+
+
+
+.address-item { 
+    font-family: var(--primary-font);
+    font-weight: 400;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    
+    }
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+.portfolio-section {
+    background-color: var(--cloud);
+  }
+
+
+.button-list  {
+   background-color: var(--white);
+ }
+
+
+   
+.btn-text { 
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--logo-color);
+  background: var(--cloud);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;}
+.btn-text:hover,
+.btn-text:focus {
+                  color: var(--white);
+                  background: var(--violet); }
+                  
+  
+  
+
+/**
+  |============================
+  | Project card 1 styles
+  |============================
+*/
+
+.projects-list {
+    background-color: var(--white);
+}
+  
+
+.card-title 
+{ 
+      font-style: normal; 
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: var(--logo-color-dark);
+}
+.card-text
+    { 
+      font-style: normal;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--slate);
+}
+
+/**
+  |============================
+  | Project card 2 styles
+  |============================
+*/
+
+
+/**
+  |============================
+  | Project card 3 styles
+  |============================
+*/
+
+
+
+ 
+
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+
+.section-hero { background-color: var(--logo-color-dark)}
+
+.hero-title { 
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+        line-height: 1.07;
+        text-align: center;
+        color: var(--white);
+}
+
+.hero-button {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: var(--logo-color);
+      }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--violet);
+}      
+
+
+/**
+  |============================
+  | Features styles
+  |============================
+*/
+.section-features {
+  background-color: var(--logo-color-dark);
+}
+
+.features-title {
+      font-family: var(--primary-font);
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      line-height: 1.2;
+      color: var(--logo-color-dark);
+}
+.feat-text {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+
+}
+
+/**
+  |============================
+  | Activity styles
+  |============================
+*/
+.activity-title,
+.team-title {
+      text-align: center;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: var(--logo-color-dark);
+}
+.activity-section {
+  background-color: var(--white);
+}
+
+.activity-list
+
+.activity-item
+
+.activity-img
+
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+
+.section-team { 
+  background-color: var(--cloud);
+}
+
+.team-item {
+  background-color: var(--white);
+}
+
+.team-worker {
+  
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-dark);
+}
+
+.team-text {
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer { background-color: #2e2f42;}
+
+.footer-logo{
+
+        font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        
+        
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-color);
+      }
+
+.logo-down {
+     color: var(--cloud);
+}
+
+.footer-text { 
+  font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    letter-spacing: 0.02em;
+    color: var(--cloud); 
+  }
