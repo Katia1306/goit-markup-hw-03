@@ -9,12 +9,9 @@
 --white: #FFFFFF;
 --cloud: #f4f4fd;
 --ocean: #13719c;
---violet: #404BBF;
+--violet:#404BBF;
 --slate: #434455;
-
 }
-
-
 
 /* Common styles */
 body {
@@ -28,22 +25,19 @@ body {
 
 /* Reset */
 h1,h2,h3,h4,h5,h6,p { 
-  margin: 0;
+     margin: 0;
 }
-
-
 
 ul,
 ol {
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
-.link { text-decoration: none;}
+.link {text-decoration: none;}
 
-.list { list-style: none; }
+.list {list-style: none;}
 a {
     text-decoration: none;
     color: currentColor;
@@ -71,22 +65,19 @@ button {
 }
 
 .logo {
-        font-family: "Raleway", sans-serif;
-        
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        
-        
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: var(--logo-color);
-          }
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--logo-color);
+    }
 
 
 .studio-up {
-        color: var(--logo-color-dark);
+    color: var(--logo-color-dark);
 }
 
 .header-item {
@@ -94,8 +85,6 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    
-   
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--logo-color-dark);
@@ -113,15 +102,13 @@ button {
 
 
 .address-item { 
-    font-family: var(--primary-font);
-    font-weight: 400;
-    
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-    
-    }
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+   }
 
 .address-link:hover,
 .address-link:focus {
@@ -133,18 +120,12 @@ button {
   |============================
   | Portfolio styles
   |============================
-*/
+*/  
+.button-list {
+  background-color: var(--white);
+}
 
-
-
-
-.button-list  {
-   background-color: var(--white);
- }
-
-
-   
-.btn-text { 
+.btn-text {
   font-family: var(--primary-font);
   font-size: 16px;
   color: var(--logo-color);
@@ -152,15 +133,15 @@ button {
   cursor: pointer;
   font-weight: 500;
   letter-spacing: 0.04em;
-  line-height: 1.5;}
+  line-height: 1.5;
+}
+
 .btn-text:hover,
 .btn-text:focus {
-                  color: var(--white);
-                  background: var(--violet); }
-                  
+  color: var(--white);
+  background: var(--violet);
+}
   
-  
-
 /**
   |============================
   | Project card 1 styles
@@ -174,13 +155,13 @@ button {
 
 .card-title 
 { 
-      font-style: normal; 
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: var(--logo-color-dark);
+  font-style: normal; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--logo-color-dark);
 }
 .card-text
     { 
@@ -203,10 +184,6 @@ button {
   | Project card 3 styles
   |============================
 */
-
-
-
- 
 
 
 /**
@@ -265,7 +242,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-
 }
 
 /**
@@ -273,7 +249,6 @@ button {
   | Activity styles
   |============================
 */
-
 .activity-title,
 .team-title {
       text-align: center;
@@ -283,7 +258,6 @@ button {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
-    
     }
       
 
@@ -292,7 +266,7 @@ button {
 |============================
 | Team styles
 |============================
-      */
+*/
 .team-worker {
   font-weight: 500;
   font-size: 20px;
@@ -312,7 +286,7 @@ button {
 }
 
 .section-team {
-  background-color: var(--cloud);
+  background-color: #F4F4FD;
 }
 
 /**
@@ -323,14 +297,11 @@ button {
 
 .footer { background-color: #2e2f42;}
 
-.footer-logo{
-
+.footer-logo {
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        
-        
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--logo-color);
@@ -341,11 +312,10 @@ button {
 }
 
 .footer-text { 
-  font-family: var(--primary-font);
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    
     letter-spacing: 0.02em;
     color: var(--cloud); 
   }
