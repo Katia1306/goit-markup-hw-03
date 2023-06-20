@@ -49,8 +49,6 @@ button {
 }
 
 
-
-
 /**
   |============================
   | Header styles
@@ -267,6 +265,9 @@ button {
 | Team styles
 |============================
 */
+.section-team {
+  background-color: var(--cloud);
+}
 .team-worker {
   font-weight: 500;
   font-size: 20px;
@@ -285,9 +286,6 @@ button {
   color: var(--slate);
 }
 
-.section-team {
-  background-color: #F4F4FD;
-}
 
 /**
   |============================
