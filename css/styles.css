@@ -250,8 +250,7 @@ button {
   | Features styles
   |============================
 */
-.section-features,
-.section-team
+.section-features
 {
   background-color: var(--cloud);
 }
@@ -279,6 +278,9 @@ button {
   | Activity styles
   |============================
 */
+.section-activity {
+  background-color: var(--white);
+}
 .activity-title,
 .team-title {
       text-align: center;
@@ -290,9 +292,7 @@ button {
       color: var(--logo-color-dark);
       
 }
-.activity-section {
-  background-color: var(--white);
-}
+
 
 .activity-list
 
