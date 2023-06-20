@@ -135,9 +135,7 @@ button {
   |============================
 */
 
-.portfolio-section {
-    background-color: var(--cloud);
-  }
+
 
 
 .button-list  {
@@ -250,10 +248,7 @@ button {
   | Features styles
   |============================
 */
-.section-features
-{
-  background-color: var(--cloud);
-}
+
 
 .features-title {
       font-family: var(--primary-font);
@@ -278,9 +273,7 @@ button {
   | Activity styles
   |============================
 */
-.section-activity {
-  background-color: var(--white);
-}
+
 .activity-title,
 .team-title {
       text-align: center;
