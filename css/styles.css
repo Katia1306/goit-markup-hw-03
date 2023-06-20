@@ -102,7 +102,7 @@ button {
   }
 
 .header-link:hover,
-.header-link:focus { color: #404BBF;}
+.header-link:focus {color: #404BBF;}
 
 .address {
   font-style: normal;
@@ -283,12 +283,7 @@ button {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
-      
-}
-
-
-
-
+      }
 /**
   |============================
   | Team styles
@@ -296,7 +291,6 @@ button {
 */
 
 .team-worker {
-  
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -306,7 +300,6 @@ button {
 }
 
 .team-text {
-  
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
