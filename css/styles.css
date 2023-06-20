@@ -250,7 +250,9 @@ button {
   | Features styles
   |============================
 */
-.section-features {
+.section-features,
+.section-team
+{
   background-color: var(--cloud);
 }
 
@@ -286,6 +288,7 @@ button {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
+      
 }
 .activity-section {
   background-color: var(--white);
