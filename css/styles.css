@@ -310,9 +310,7 @@ button {
   background-color: var(--cloud);
 }
 
-.team-item {
-  background-color: var(--white);
-}
+.team-item 
 
 .team-worker {
   
