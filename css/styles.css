@@ -21,12 +21,16 @@ body {
     color: var(--slate);
     list-style-type: none;
 }
+img {
+  display: block;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
-.img { display: block; }
+
+
 
 .visually-hidden {
   position: absolute;
@@ -350,7 +354,9 @@ button {
 .card-item {
   width: calc((100% - 48px) / 3);
 }
-
+.card-link {
+  
+}
 .crd-lnk {
   padding: 32px 16px;
   border: 1px solid var(--button);
