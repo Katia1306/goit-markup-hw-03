@@ -21,9 +21,9 @@ body {
     list-style-type: none;
 }
 .container {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 
@@ -58,15 +58,28 @@ button {
   | Header styles
   |============================
 */
-
-
-.header 
+.header {
+  border-bottom: 1px solid #e7e9fc ;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
 .header-nav {
+  display: flex;
+  align-items: center;
   list-style: none;
 }
 
 .logo {
+   display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -81,8 +94,13 @@ button {
 .studio-up {
     color: var(--logo-color-dark);
 }
-
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .header-item {
+   padding: 24px 0;
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
@@ -98,11 +116,11 @@ button {
 .address {
   font-style: normal;
 }
-
-.address-list
-
-
-
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .address-item { 
   font-family: var(--primary-font);
   font-weight: 400;
@@ -117,6 +135,111 @@ button {
     color: #404BBF;
 }
 
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+
+.section-hero {
+
+  background-color: var(--logo-color-dark)
+}
+
+.hero-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white);
+
+}
+
+.hero-button {
+
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: var(--logo-color);
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--violet);
+}
+
+/**
+  |============================
+  | Features styles
+  |============================
+*/
+.section-features 
+
+.features-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: var(--logo-color-dark);
+}
+
+.feat-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/**
+  |============================
+  | Activity styles
+  |============================
+*/
+.activity-title,
+.team-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color-dark);
+}
+/**
+|============================
+| Team styles
+|============================
+*/
+.section-team {
+  background-color: var(--cloud);
+}
+
+.team-worker {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--logo-color-dark);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 
 /**
   |============================
@@ -126,7 +249,6 @@ button {
 .button-list {
   background-color: var(--white);
 }
-
 .btn-text {
   font-family: var(--primary-font);
   font-size: 16px;
@@ -137,7 +259,6 @@ button {
   letter-spacing: 0.04em;
   line-height: 1.5;
 }
-
 .btn-text:hover,
 .btn-text:focus {
   color: var(--white);
@@ -153,9 +274,7 @@ button {
 .projects-list {
     background-color: var(--white);
 }
-  
-
-.card-title 
+  .card-title 
 { 
   font-style: normal; 
   font-weight: 500;
@@ -179,118 +298,11 @@ button {
   | Project card 2 styles
   |============================
 */
-
-
 /**
   |============================
   | Project card 3 styles
   |============================
 */
-
-
-/**
-  |============================
-  | Hero styles
-  |============================
-*/
-
-.section-hero { background-color: var(--logo-color-dark)}
-
-.hero-title { 
-        font-family: var(--primary-font);
-        font-weight: 700;
-        font-size: 56px;
-        letter-spacing: 0.02em;
-        line-height: 1.07;
-        text-align: center;
-        color: var(--white);
-}
-
-.hero-button {
-        font-family: var(--primary-font);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        background: var(--logo-color);
-      }
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--violet);
-}      
-
-
-/**
-  |============================
-  | Features styles
-  |============================
-*/
-
-
-.features-title {
-      font-family: var(--primary-font);
-      font-weight: 500;
-      font-size: 20px;
-      letter-spacing: 0.02em;
-      line-height: 1.2;
-      color: var(--logo-color-dark);
-}
-.feat-text {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
-
-/**
-  |============================
-  | Activity styles
-  |============================
-*/
-.activity-title,
-.team-title {
-      text-align: center;
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 1.11;
-      letter-spacing: 0.02em;
-      text-transform: capitalize;
-      color: var(--logo-color-dark);
-    }
-      
-
-
-/**
-|============================
-| Team styles
-|============================
-*/
-.section-team {
-  background-color: var(--cloud);
-}
-.team-worker {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--logo-color-dark);
-}
-
-.team-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-
-
 /**
   |============================
   | Footer styles
